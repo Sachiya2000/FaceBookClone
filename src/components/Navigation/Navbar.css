@@ -1,0 +1,87 @@
+.navBarBox{
+    height: 50px;
+    width: 100%;
+    background-color: #3b5998;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.navBarLeft{
+flex: 3;
+font-family: sans-serif;
+}
+.navBarCenter{
+flex: 5;
+}
+.navBarRight{
+flex: 4;
+display: flex;
+align-items: center;
+
+color: #fff;
+}
+.profilePicimg{
+    width: 32px;
+    height: 38px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 50px;
+
+}
+.logo{
+    
+    font-size: 35px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.searchBarBox{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+.SearchIcon{
+    margin-left: 10px;
+}
+.searchInput{
+    border: none;
+    width: 80%;
+}
+.searchInput:focus{
+    outline: none;
+}
+.navbarIcons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbarIcon {
+margin-left: 15px;
+}
+
+.navBarLinks{
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.navBarLink{
+    margin-left: 10px;
+}
+.iconTag{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    
+}
